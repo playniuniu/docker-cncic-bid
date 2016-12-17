@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CNCIC 招标展示</title>
+    <link href="../vendor/semantic-ui/semantic.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <style>
+        #tool-box {
+            width: 100%;
+        }
+
+        .link line {
+            stroke: #696969;
+        }
+
+        .link line.separator {
+            stroke: #fff;
+            stroke-width: 2px;
+        }
+
+        .node circle {
+            stroke: #000;
+            stroke-width: 1.5px;
+        }
+
+        .node text {
+            font: 10px sans-serif;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-body">
+        <header class="ui menu main-menu">
+            <div class="item"><img class="logo" src="../images/icon/logo.png"></div>
+            <a href="../index.html" class="header item">CNCIC 招标展示</a>
+        </header>
+
+        <section class="main-section">
+            <nav class="main-nav ui vertical menu">
+                <a class="item" href="../index.html">我们的优势</a>
+                <a class="item" href="./design.html">形象策划</a>
+                <a class="item" href="./search.html">独立搜索平台</a>
+                <a class="item" href="./cms.html">可定制 CMS</a>
+                <a class="active item" href="./svg.html">SVG 展示技术</a>
+                <a class="item" href="./email.html">响应式邮件设计</a>
+                <a class="item" href="./arch.html">前后端分离架构</a>
+            </nav>
+            
+            <div class="main-content">
+                <div class="ui segment">
+                    <h3 class="ui header">使用 SVG 呈现化学式</h3>
+                    <div id="tool-box"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="../vendor/jquery/jquery-3.js"></script>
+    <script src="../vendor/d3/d3.v3.js"></script>
+    <script src="../js/svg.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+{
+    "results": {
+        "chemical": {
+            "name": "Chemical",
+            "results": [{
+                "title": "Japan Small Amount New Chemicals Notification to Begin in 2017",
+                "url": "https://chemlinked.com/news/chemical-news/japan-small-amount-new-chemicals-notification-begin-2017",
+                "image": "../images/search/1.png",
+                "description": "On Dec 14th 2016, Japanese Ministry of Health, Labor and Welfare (MHLW), Ministry of Economy ..."
+            }, {
+                "title": "China Raises Bar on Environmental Protection Requirements",
+                "url": "https://chemlinked.com/news/chemical-news/china-raises-bar-environmental-protection-requirements",
+                "image": "../images/search/2.png",
+                "description": "On Dec 5th, 2016, China State Council published 13th Five Year Plan..."
+            }]
+        },
+        "food": {
+            "name": "Food",
+            "results": [{
+                "title": "China to Redefine Health Food Function Claims",
+                "url": "https://food.chemlinked.com/news/food-news/china-redefine-health-food-function-claims",
+                "image": "../images/search/3.jpg",
+                "description": "On Dec. 14, 2016, China CFDA drafted the “Opinions on Health Food..."
+            }]
+        },
+        "cosmetic": {
+            "name": "Cosmetic",
+            "results": [{
+                "title": "Safety and Technical Standards for Cosmetics Enters Into Force from Dec 1",
+                "url": "https://cosmetic.chemlinked.com/news/cosmetic-news/safety-and-technical-standards-cosmetics-enters-force-dec-1",
+                "image": "../images/search/4.jpg",
+                "description": "After almost a year grace period, Safety and Technical Standards..."
+            }]
+        },
+        "agrochemical": {
+            "name": "Agrochemical",
+            "results": [{
+                "title": "Mexican COFEPRIS Released List of Low Risk Biopesticides",
+                "url": "https://agrochemical.chemlinked.com/news/news/mexican-cofepris-released-list-low-risk-biopesticides",
+                "image": "../images/search/5.png",
+                "description": "On 22 Nov 2016, Mexican Federal Commission for the Protection against Health Risks..."
+            }]
+        }
+    }
+}

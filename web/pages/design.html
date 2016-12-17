@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CNCIC 招标展示</title>
+    <link href="../vendor/semantic-ui/semantic.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <style>
+        .main-content {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .main-content .ui.segment {
+            margin: 0 20px 20px 0;
+            padding: 10px;
+            width: 422px;
+        }
+
+        .ui.segment.bmw-video {
+            padding-bottom: 5px;
+        }
+
+        .ui.segment.bmw-video:hover {
+            cursor: pointer;
+        }
+
+        .main-content img {
+            border-radius: 2px;
+        }
+
+        .main-content video {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-body">
+        <header class="ui menu main-menu">
+            <div class="item"><img class="logo" src="../images/icon/logo.png"></div>
+            <a href="../index.html" class="header item">CNCIC 招标展示</a>
+        </header>
+
+        <section class="main-section">
+            <nav class="main-nav ui vertical menu">
+                <a class="item" href="../index.html">我们的优势</a>
+                <a class="active item" href="./design.html">形象策划</a>
+                <a class="item" href="./search.html">独立搜索平台</a>
+                <a class="item" href="./cms.html">可定制 CMS</a>
+                <a class="item" href="./svg.html">SVG 展示技术</a>
+                <a class="item" href="./email.html">响应式邮件设计</a>
+                <a class="item" href="./arch.html">前后端分离架构</a>
+            </nav>
+            
+            <div class="main-content">
+                <div class="ui segment">
+                    <img src="../images/design/bmw_iphone_1.png" class="ui fluid image">
+                </div>
+                <div class="ui segment bmw-video">
+                    <a class="ui blue right corner label">
+                        <i class="record icon"></i>
+                    </a>
+                    <video src="../images/design/bmw_iphone_1.mp4" loop></video>
+                </div>
+                <div class="ui segment">
+                    <img src="../images/design/bmw_iphone_2.png" class="ui fluid image">
+                </div>
+                <div class="ui segment bmw-video">
+                    <a class="ui blue right corner label">
+                        <i class="record icon"></i>
+                    </a>
+                    <video src="../images/design/bmw_iphone_2.mp4" loop></video>
+                </div>
+                <div class="ui segment">
+                    <a class="ui orange right corner label">
+                        <i class="trophy icon"></i>
+                    </a>
+                    <img src="../images/design/bmw_logo.png" class="ui fluid image">
+                </div>
+                <div class="ui segment">
+                    <img src="../images/design/bmw_brochure.jpg" class="ui fluid image">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="../vendor/jquery/jquery-3.js"></script>
+    <script>
+        $('video').click(function() {
+            this.paused ? this.play() : this.pause();
+        });
+    </script>
+</body>
+
+</html>

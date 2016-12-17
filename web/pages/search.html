@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CNCIC 招标展示</title>
+    <link href="../vendor/semantic-ui/semantic.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/tinymce.css" rel="stylesheet">
+    <style>
+        #search-box {
+            margin-right: 20px;
+        }
+
+        #search-box > .results .category > .name {
+            width: 150px;
+        }
+
+        #search-box > .results .category .result {
+            margin-left: 150px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main-body">
+        <header class="ui menu main-menu">
+            <div class="item"><img class="logo" src="../images/icon/logo.png"></div>
+            <a href="../index.html" class="header item">CNCIC 招标展示</a>
+        </header>
+
+        <section class="main-section">
+            <nav class="main-nav ui vertical menu">
+                <a class="item" href="../index.html">我们的优势</a>
+                <a class="item" href="./design.html">形象策划</a>
+                <a class="active item" href="./search.html">独立搜索平台</a>
+                <a class="item" href="./cms.html">可定制 CMS</a>
+                <a class="item" href="./svg.html">SVG 展示技术</a>
+                <a class="item" href="./email.html">响应式邮件设计</a>
+                <a class="item" href="./arch.html">前后端分离架构</a>
+            </nav>
+            
+            <div class="main-content">
+                <div class="ui fluid category search" id="search-box">
+                    <div class="ui icon input">
+                        <input class="prompt" type="text" placeholder="Search github...">
+                        <i class="search icon"></i>
+                    </div>
+                    <div class="results"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="../vendor/jquery/jquery-3.js"></script>
+    <script src="../vendor/semantic-ui/semantic.js"></script>
+    <script src="../js/search.js"></script>
+</body>
+
+</html>
